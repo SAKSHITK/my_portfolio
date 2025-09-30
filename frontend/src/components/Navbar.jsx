@@ -8,7 +8,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{position: "fixed",
+  top: 0,
+  width: "100%",
+  zIndex: 1000,
+  padding: "16px 20px",
+  boxShadow: "0 2px 5px rgba(0,0,0,0.1)",}}>
       <div className="logo" style={{ width:"100",paddingTop: 16, paddingLeft: 16, paddingRight: 16 }}>Portfolio</div>
       <div className="hamburger" onClick={toggleMenu}>
         ☰

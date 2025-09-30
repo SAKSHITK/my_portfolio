@@ -1,3 +1,6 @@
+.navbar{
+  position:"fixed";
+}
 html, body {
   scroll-padding-top: 72px;
 }
@@ -55,7 +58,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;           /* optional: stays on top */
+  position: fixed;         
   top: 0;
   left: 0;
   z-index: 1000;
