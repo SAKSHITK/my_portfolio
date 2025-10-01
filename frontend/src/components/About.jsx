@@ -7,7 +7,7 @@ const About = () => {
       id="about"
       className="about-section"
       style={{
-         marginTop:"0px",
+         marginTop:"40px",
         padding: "10px 20px",
         textAlign: "center",
         backgroundColor: "#0f172a",
