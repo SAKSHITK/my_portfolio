@@ -18,7 +18,7 @@ const About = () => {
       <div
         className="about-img-top"
         style={{
-          marginTop: "50px",
+          marginTop: "100px",
           marginBottom: "50px",
           display: "flex",
           justifyContent: "center",
