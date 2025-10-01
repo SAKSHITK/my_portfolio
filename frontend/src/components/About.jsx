@@ -7,19 +7,20 @@ const About = () => {
       id="about"
       className="about-section"
       style={{
-         marginTop:"40px",
-        padding: "10px 20px",
+        paddingTop: "120px",
+        paddingBottom: "40px",
+        paddingLeft: "20px",
+        paddingRight: "20px",
         textAlign: "center",
         backgroundColor: "#0f172a",
         color: "#f8fafc",
-        minHeight: "100vh",     // same text color as Home             // fill height like Home
+        minHeight: "100vh",
       }}
     >
       <div
         className="about-img-top"
         style={{
-          marginTop: "100px",
-          marginBottom: "50px",
+          marginBottom: "30px",
           display: "flex",
           justifyContent: "center",
         }}
@@ -30,41 +31,51 @@ const About = () => {
           style={{
             display: "block",
             margin: "0 auto",
-            borderRadius: "50%", // round image
+            borderRadius: "50%",
             width: "200px",
             height: "200px",
             objectFit: "cover",
+            boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
           }}
         />
       </div>
-
+      
       <h2
         className="section-title"
         style={{
           textAlign: "center",
-          margin: "10px 0",
+          fontSize: "2rem",
+          marginBottom: "30px",
         }}
       >
         About Me
       </h2>
-
+      
       <div
         className="edu-item"
         style={{
-          backgroundColor: "#1e293b",      // same as education
-                 // same padding
-    borderRadius: "12px",            // same radius
-    boxShadow: "0 4px 6px rgba(0,0,0,0.2)",  // add same shadow
-    maxWidth: "800px",
-    margin: "0 auto",
-    textAlign: "center",
-    marginBottom:"0px"
+          backgroundColor: "#1e293b",
+          padding: "25px",
+          borderRadius: "12px",
+          boxShadow: "0 4px 6px rgba(0,0,0,0.2)",
+          maxWidth: "800px",
+          margin: "0 auto",
         }}
       >
-        <p style={{ margin: 0,  textAlign: "justify", lineHeight: "1.8"}}>
-          I'm a BE Computer Science and Engineering student at SDM Institute of Technology,Ujire. I enjoy solving complex problems, creating innovative solutions, and continuously learning to stay updated with the latest advancements in Technology.
+        <p style={{ 
+          margin: 0,  
+          textAlign: "justify", 
+          lineHeight: "1.8",
+          fontSize: "1rem"
+        }}>
+          I'm a BE Computer Science and Engineering student at SDM Institute of Technology, Ujire. I enjoy solving complex problems, creating innovative solutions, and continuously learning to stay updated with the latest advancements in Technology.
         </p>
-        <p style={{ marginTop: "15px",textAlign: "justify", lineHeight: "1.8"}}>
+        <p style={{ 
+          marginTop: "15px",
+          textAlign: "justify", 
+          lineHeight: "1.8",
+          fontSize: "1rem"
+        }}>
           My goal is to gain the information and abilities necessary to build, develop, and invent software systems, use technology to address practical issues, and advance computers and related industries. Take a look at my work and feel free to contact me for exciting opportunities or collaborations!
         </p>
       </div>
