@@ -7,7 +7,7 @@ const About = () => {
       id="about"
       className="about-section"
       style={{
-         paddingTop:"40px",
+         paddingTop:"0px",
         marginBottom: "0px",
         padding: "30px 20px",           // same padding as Home
         textAlign: "center",            // center text
@@ -18,7 +18,7 @@ const About = () => {
       <div
         className="about-img-top"
         style={{
-          paddingTop:"40px",
+          paddingTop:"0px",
           marginTop: "90px",
           marginBottom: "40px",
           display: "flex",
