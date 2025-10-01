@@ -46,6 +46,7 @@ const Home = () => {
       className="home"
       id="home"
       style={{
+        paddingBottom: "20px",
         marginTop:"90px",
         padding: "30px 20px",
         textAlign: "center",
