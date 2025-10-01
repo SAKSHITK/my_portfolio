@@ -7,6 +7,7 @@ const About = () => {
       id="about"
       className="about-section"
       style={{
+        marginTop:"-50px",
         marginBottom: "0px",
         padding: "30px 20px",           // same padding as Home
         textAlign: "center",            // center text
