@@ -49,7 +49,7 @@ const Home = () => {
         paddingBottom: "20px",
         marginTop:"90px",
         marginBottom:"-30px",
-        padding: "30px 20px",
+        padding: "80px 20px",
         textAlign: "center",
         backgroundColor: "#0f172a",
         color: "#f8fafc",
