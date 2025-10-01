@@ -85,7 +85,7 @@ const Home = () => {
           margin: "0 auto 30px auto",
         }}
       >
-        <h3 style={{ marginBottom: "15px" }}>Feel free to contact me here</h3>
+        <h3 style={{ marginBottom: "15px",marginBottom:"0px" }}>Feel free to contact me here</h3>
         <p style={{
     fontSize: "0.9rem",
     color: "#94a3b8",
