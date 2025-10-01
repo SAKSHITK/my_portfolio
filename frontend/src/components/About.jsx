@@ -8,7 +8,7 @@ const About = () => {
       className="about-section"
       style={{
         marginBottom: "0px",
-        padding: "0px 20px 30px 20px",// same padding as Home
+        padding: "30px 20px",           // same padding as Home
         textAlign: "center",            // center text
         backgroundColor: "#0f172a",     // same bg as Home
         color: "#f8fafc",               // same text color as Home             // fill height like Home
@@ -17,8 +17,8 @@ const About = () => {
       <div
         className="about-img-top"
         style={{
-          marginTop: "90px",
-          marginBottom: "10px",
+          marginTop: "0px",
+          marginBottom: "20px",
           display: "flex",
           justifyContent: "center",
         }}
