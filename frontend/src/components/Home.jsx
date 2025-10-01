@@ -47,7 +47,7 @@ const Home = () => {
       id="home"
       style={{
         paddingBottom: "20px",
-        marginTop:"90px",
+        marginTop:"50px",
         marginBottom:"-100px",
         padding: "80px 20px",
         textAlign: "center",
