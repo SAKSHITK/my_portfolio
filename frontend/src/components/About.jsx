@@ -7,11 +7,12 @@ const About = () => {
       id="about"
       className="about-section"
       style={{
-        marginBottom: "0px",
-        padding: "30px 20px",           // same padding as Home
-        textAlign: "center",            // center text
-        backgroundColor: "#0f172a",     // same bg as Home
-        color: "#f8fafc",               // same text color as Home             // fill height like Home
+         marginTop:"90px",
+        padding: "30px 20px",
+        textAlign: "center",
+        backgroundColor: "#0f172a",
+        color: "#f8fafc",
+        minHeight: "100vh",     // same text color as Home             // fill height like Home
       }}
     >
       <div
