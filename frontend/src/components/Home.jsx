@@ -9,7 +9,7 @@ import {
 
 const Home = () => {
   // phrases to type out
-  const phrases = ["Web Development", "Data Analysis"];
+  const phrases = ["Data Analysis", "Full Stack Web Development"];
   const [displayText, setDisplayText] = useState("");
   const [phraseIndex, setPhraseIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
